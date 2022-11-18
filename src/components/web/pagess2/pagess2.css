@@ -1,0 +1,110 @@
+#faith{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;   
+    
+}
+
+
+#zt{
+    flex: 1;
+    margin: 15vh;
+}
+
+#hhhh{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5vh;
+
+    color: rgb(22,36,102);
+}
+
+.poi{
+    color: rgb(22,36,102);
+    margin-top: 2vh;
+    font-size: 2.3vh;
+}
+
+.pois{
+    color: rgb(22,36,102);
+    margin-top: 4vh;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+
+#zy{
+flex: 1;
+    margin: 15vh;
+}
+
+
+
+
+
+
+
+
+@media  (min-width: 300px) and (max-width: 450px) {
+    #faith{
+        height: 60rem;
+        display: flex;
+        flex-direction: column;   
+        margin-top: 5rem;
+        
+    }
+    
+    
+    #zt{
+        flex: 1;
+        margin: 1rem;
+    }
+    
+    #hhhh{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.7rem;
+    
+        color: rgb(22,36,102);
+    }
+    
+    .poi{
+        color: rgb(22,36,102);
+        margin-top: 1.3rem;
+        font-size: 1rem;
+    }
+    
+    .pois{
+        color: rgb(22,36,102);
+        /* margin-top: 1rem; */
+        margin: 1rem;
+        font-size:1rem;
+        font-weight: bold;
+    }
+    
+    
+    #zy{
+    flex: 1;
+        margin: 1rem;
+    }
+    
+    
+    
+    
+
+}
+
+
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}

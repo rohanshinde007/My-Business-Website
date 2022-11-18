@@ -1,0 +1,72 @@
+#zq{
+height: 80vh;
+width: 100%;
+
+background-image: url('../../../Images/webdev.jpg');
+background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.7) 0vh 1vh 2vh 0.2vh; 
+}
+
+#www{
+    color: rgb(251, 251, 251);
+    width: 60%;
+    margin-left: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7.8vh;
+   
+}
+
+
+
+
+
+
+@media  (min-width: 300px) and (max-width: 450px) {
+    #zq{
+        height: 120vh;
+        width: 100%;
+        
+        background-image: url('../../../Images/websitedeep.jpg');
+        background-attachment: fixed;
+             background-position:center bottom;
+                background-repeat: no-repeat;
+            background-size: cover;
+                /* background-size:fill; */
+                display: flex;
+                align-items: center;
+                box-shadow: rgba(0, 0, 0, 0.7) 0vh 1vh 2vh 0.2vh; 
+        }
+        
+        #www{
+            color: rgb(251, 251, 251);
+            width: 90%;
+            margin-left:1rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 3rem;
+           
+        }
+        
+
+}
+
+
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}

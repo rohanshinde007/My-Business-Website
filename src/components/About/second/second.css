@@ -1,0 +1,152 @@
+#ma{
+    height:90vh;
+    width: 100%;
+    background-image: url('../../../Images/fli.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center top;
+    position: relative;
+    box-shadow: rgba(0.35, 0, 0, 0.4) 0px 1vh 3vh;
+
+}
+
+#cnts{
+    position: absolute;
+    height: 70vh;
+    width: 60vh;
+    margin-left: 40vh;
+    background-color: white;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+#res{
+   
+   margin-top: 5vh;
+   font-size: 7.7vh;
+   margin-left: 5vh;
+   margin-right: 5vh;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgb(0,24,58);
+   font-weight: 600;
+
+    
+}
+#fes{
+    color: rgb(0,24,58);
+    margin-top: 5vh;
+    font-size: 2.4vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bbb{
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-top: 10vh;
+  font-size: 2.5vh;
+  padding: 1vh;
+  border: none;
+  background-color: rgb(0,24,58); ;
+  color:white;
+  border-radius: 2vh;
+}
+
+#bbb:hover{
+  background-color:rgb(4, 38, 84); ;
+  }
+
+
+
+
+
+
+  @media  (min-width: 300px) and (max-width: 450px) {
+    #ma{
+      height:30rem;
+      width: 100%;
+     
+      background-image: url('../../../Images/fli.jpg');
+  
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center top;
+      position: relative;
+      box-shadow: rgba(0.35, 0, 0, 0.4) 0px 1vh 3vh;
+  
+  }
+  
+  #cnts{
+      position: absolute;
+      height: 25rem;
+      width: 15rem;
+      margin-left: 1rem;
+      background-color: white;
+      border-radius: 1vh;
+      display: flex;
+      flex-direction: column;
+      /* margin-right: 1rem; */
+     
+  }
+  
+  
+  #res{
+     
+     margin-top: 1rem;
+     font-size: 1.9rem;
+     margin-left: 1rem;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: rgb(0,24,58);
+     font-weight: 600;
+  
+      
+  }
+  #fes{
+   
+      margin-top: 1rem;
+      font-size: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #bbb{
+    margin-left: 1rem;
+    margin-top: 1.8rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    padding: 0.3rem;
+    border: none;
+    background-color: rgb(0,24,58); ;
+    color:white;
+    border-radius: 2vh;
+  }
+  
+  #bbb:hover{
+    background-color:rgb(4, 38, 84); ;
+    }  
+
+  }
+  
+  
+  
+  @media  (min-width: 515px) and (max-width: 768px) {
+          
+      
+  }
+  
+  @media  (min-width: 515px) and (max-width: 768px) {
+          
+      
+  }
+  
+  @media  (min-width: 515px) and (max-width: 768px) {
+          
+      
+  }
+  

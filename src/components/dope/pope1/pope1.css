@@ -1,0 +1,109 @@
+#mana{
+    height: 78vh;
+    width: 100%;
+    margin-top: 0vh;
+    background-image: url('../../../Images/upside.jpg');
+    background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+
+#spec{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+
+}
+
+#oiur{
+    margin: 8vh;
+    margin-top: 15vh;
+    font-size: 8vh;
+    font-weight: bold;
+    width: 60%;
+    color: rgb(13, 22, 69);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#lets{
+    font-size: 4vh;
+    margin-left: 8vh;
+    background-color: rgb(13, 22, 69) ;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    padding: 0.5vh;
+}
+#lets:hover{
+background-color:rgb(13, 24, 85) ;
+}
+
+
+
+
+
+@media  (min-width: 300px) and (max-width: 450px) {
+    
+    #mana{
+        height: 48rem;
+        width: 100%;
+        margin-top: 0vh;
+        background-image: url('../../../Images/upside.jpg');
+        background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+    
+    
+    
+    #spec{
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+    
+    }
+    
+    #oiur{
+        margin: 1rem;
+        margin-top: 5rem;
+        font-size: 2.5rem;
+        font-weight: bold;
+        width: 90%;
+        color: rgb(13, 22, 69);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #lets{
+        font-size: 2rem;
+        margin-left: 1rem;
+        background-color: rgb(13, 22, 69) ;
+        color: white;
+        border: none;
+        border-radius: 1vh;
+        padding: 0.5vh;
+    }
+ 
+    
+    
+}
+
+
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}

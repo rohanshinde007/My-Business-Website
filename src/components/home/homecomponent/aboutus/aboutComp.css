@@ -1,0 +1,154 @@
+
+.div{
+    height: 64vh;
+    background-image: url('../../../../Images/who.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    box-shadow: rgba(0.35, 0, 0, 0.2) 0px 1vh 3vh;
+    
+    /* margin-left: 7vh; */
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+}
+
+.containers{
+    flex: 1;
+    margin-left: 7vh;
+}
+
+.imgss{
+   margin-top: 5vh;
+    height: 50vh;
+    border: 2vh solid rgb(9, 43, 91);
+    object-fit: cover;
+    border-radius: 3vh;
+    transition: transform .2s;
+}
+.imgss:hover{
+    transform: scale(1.1);
+}
+
+.who{
+    flex: 2;
+    margin-left: 5%;
+}
+
+#head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 8vh;
+    margin-top: 10vh;
+    color: rgb(0,24,58);
+}
+
+#sub{
+    margin-top: 1vh;
+    font-size: 4vh;
+    font-weight:400;
+    color: rgb(0,24,58);
+}
+#m{
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    font-size: 3vh;
+    font-weight: bold;
+    color: rgb(0,24,58);
+}
+
+#conts{
+    font-size: 2.6vh;
+    font-weight: bold;
+    color: rgb(0,24,58);
+
+}
+
+
+
+
+@media  (min-width: 300px) and (max-width: 450px) {
+    .div{
+        width: 100%;
+        height:56rem;
+        background-image: url('../../../../Images/who.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:left center;
+        box-shadow: rgba(0.35, 0, 0, 0.2) 0px 1vh 3vh;
+        
+        /* margin-left: 7vh; */
+        display: flex;
+
+        flex-direction:column;
+    }
+
+
+    .containers{
+        flex: 1;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    
+    }
+    
+    .imgss{
+       margin-top: 2rem;
+        height: 20rem;
+        width: 20rem;
+        border: 2vh solid rgb(9, 43, 91);
+        object-fit: cover;
+        border-radius: 3vh;
+        transition: transform .2s;
+    }
+
+
+    
+    #head{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 3rem;
+        margin-top: 2rem;
+        color: rgb(0,24,58);
+    }
+    
+    #sub{
+        margin-top: 0.3rem;
+        font-size: 1.6rem;
+        font-weight:400;
+        color: rgb(0,24,58);
+    }
+    #m{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size:1.7rem;
+        font-weight: bold;
+        color: rgb(0,24,58);
+    }
+    
+    #conts{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: rgb(0,24,58);
+    
+    }
+    
+ 
+
+  }
+  
+  
+  
+  @media  (min-width: 515px) and (max-width: 768px) {
+          
+      
+  }
+  
+  @media  (min-width: 515px) and (max-width: 768px) {
+          
+      
+  }
+  
+  @media  (min-width: 515px) and (max-width: 768px) {
+          
+      
+  }
+  
+

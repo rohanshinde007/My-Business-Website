@@ -1,0 +1,112 @@
+#main{
+    /* margin-top: 3vh; */
+    height: 20vh;
+    /* margin-top: 5vh; */
+    background-image: url('../../../../Images/grans.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+
+    width: 100%;
+    /* opacity: 0.4; */
+
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1vh 3vh;
+}
+
+#con{
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+}
+#like{
+    margin-left: 10vh;
+    margin-top:5vh ;
+    font-size: 5vh;
+}
+#p{
+    margin-left: 10vh;
+    font-size: 3vh;
+}
+
+#pon{
+   
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+#bt{
+ margin-left: 25vh;
+ font-size: 3vh;
+ padding: 1vh;
+ background-color: rgb(71, 15, 83);
+ color:white;
+ border-radius:1.7vh;
+ border:0.3vh solid rgb(238, 114, 114);
+ text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media  (min-width: 300px) and (max-width: 450px) {
+    #main{
+        /* margin-top: 3vh; */
+        height: 15rem;
+        /* margin-top: 5vh; */
+        width: 100%;
+        /* opacity: 0.4; */
+    
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+     
+    }
+    
+   
+    #like{
+        margin-left: 1rem;
+        margin-top:2rem;
+        font-size: 1.8rem;
+    }
+    #p{
+        margin-left:1rem;
+        font-size: 1rem;
+    }
+    
+    #bt{
+     margin-left: 1rem;
+     font-size:1.3rem;
+     padding: 0.7rem;
+     background-color: rgb(71, 15, 83);
+     color:white;
+     border-radius:1.7vh;
+     border:0.3vh solid rgb(238, 114, 114);
+     text-decoration: none;
+    }
+    
+
+}
+
+
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}

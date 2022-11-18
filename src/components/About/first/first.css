@@ -1,0 +1,156 @@
+#ff{
+    height:80vh;
+
+    background-image: url('../../../Images/bagA.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    
+}
+#le{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ii{
+    /* margin: 10vh; */
+    border-radius: 2vh;
+    /* border-right: 0.5vh solid rgb(12, 12, 70);
+    border-bottom: 0.5vh solid rgb(12, 12, 70); */
+    height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.88) 1vh 3vh 3vh -1vh;
+    transition: transform .2s;
+}
+.ii:hover{
+    transform: scale(1.02);
+}
+
+#les{
+    flex: 1;
+    margin-top: 15vh;
+ 
+}
+
+
+#lioo{
+    position: absolute;
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+}
+#pot{
+    position: relative;
+
+}
+
+#ri{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+#he{
+font-size: 8vh;
+color: rgb(0,24,58);
+}
+#para{
+    margin-left: 5vh;
+    margin-top: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.7vh;
+    color: rgb(0,24,58);
+    font-weight: 600;
+    text-align: center;
+    margin-right: 5vh;
+}
+
+
+
+@media  (min-width: 300px) and (max-width: 450px) {
+    #ff{
+        height:60rem;
+    
+        background-image: url('../../../Images/bagA.jpg');
+        background-attachment: fixed;
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size:auto;
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+    #le{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ii{
+        /* margin: 10vh; */
+        border-radius: 2vh;
+
+        margin-top: 3rem;
+        /* border-right: 0.5vh solid rgb(12, 12, 70);
+        border-bottom: 0.5vh solid rgb(12, 12, 70); */
+        height:13rem;
+        box-shadow: rgba(0, 0, 0, 0.88) 1vh 3vh 3vh -1vh;
+        transition: transform .2s;
+    }
+
+    #les{
+        flex: 1;
+        margin-top: 4rem;
+     
+    }
+    
+    
+    #lioo{
+        position: absolute;
+        height: 27rem;
+        width: 100%;
+        background-color: rgb(192, 192, 192);
+        opacity: 0.5;
+    }
+   
+
+    #he{
+    font-size: 3rem;
+    color: rgb(0,24,58);
+    }
+    #para{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.3rem;
+        color: rgb(0,24,58);
+        font-weight: 600;
+        text-align: center;
+    }   
+}
+
+
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
+@media  (min-width: 515px) and (max-width: 768px) {
+        
+    
+}
+
