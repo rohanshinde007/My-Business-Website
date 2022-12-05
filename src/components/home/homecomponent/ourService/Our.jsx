@@ -19,7 +19,7 @@ function Our() {
 
             <div className='cardA'>
            
-                <h1 className='he'>Digital Marketing</h1>
+                <h2 className='he'>Digital Marketing</h2>
                 <img className='ima' src={Digital} alt="" />
                 <p className='para'>We are here to the promotion of brands to connect with potential customers using the internet and other forms of digital communication. This includes email, social media, web-based advertising, etc.  </p>
                 <Link to={'/digit'}>
@@ -29,7 +29,7 @@ function Our() {
             </div>
 
             <div className='cardB'>
-            <h1 className='he'>Web Design & Development</h1>
+            <h2 className='he'>Web Design & Development</h2>
             <img className='ima2' src={Web} alt="" />
                 <p className='para'>Website is essential for online businesses, and good looking website  can help you create a good impression on your customers. that's why we are here to create the best working and good looking Website. our company creates blog websites, portfolio websites, collage websites, etc.</p>
                 <Link to={'/web'}>
@@ -39,7 +39,7 @@ function Our() {
             </div>
 
             <div className='cardC'>
-            <h1 className='he'>E-Commerce Website</h1>
+            <h2 className='he'>E-Commerce Website</h2>
             <img className='ima' src={Ecom} alt="" />
             
                 <p className='para'>The best E-Commerce Website plays a significant role in improving  your product sales, and our company always tries to give the best e-commerce website for big and small businesses</p>

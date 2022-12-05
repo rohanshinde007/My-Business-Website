@@ -66,12 +66,12 @@ function End() {
 
         <div id='e'>
           <div id='bo'>
-            <img className='aaa' src={Facebook} alt="" />
-            <img className='aaa' src={Inst} alt="" />
-            <img className='aaa' src={Twi} alt="" />
-            <img className='aaa' src={In} alt="" />
-            <img className='aaa' src={You} alt="" />
-            <img className='aaa' src={Email} alt="" />
+           <a href="https://www.facebook.com/profile.php?id=100086675444440" target="_blank"><img className='aaa' src={Facebook} alt="" /></a>
+            <a href="https://www.instagram.com/g_feature_/" target="_blank"><img className='aaa' src={Inst} alt="" /></a>
+            <a href="https://twitter.com/MrBreak17539690" target="_blank"><img className='aaa' src={Twi} alt="" /></a>
+           <a href="https://www.linkedin.com/in/rohan-shinde7/" target="_blank"> <img className='aaa' src={In} alt="" /></a>
+           <a href="https://www.youtube.com/channel/UCow4rLExVeaBJXUktZLSegQ" target="_blank"><img className='aaa' src={You} alt="" /></a> 
+           <a href="mailto:tech@gfeature.com" target="_blank"> <img className='aaa' src={Email} alt="" /></a>
           </div>
           <p id='coppy'>Copyright © 2022 GFeature | GFeature - Digital Marketing Company </p>
 

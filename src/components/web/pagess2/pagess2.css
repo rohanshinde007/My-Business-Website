@@ -44,19 +44,19 @@ flex: 1;
 
 
 
-@media  (min-width: 300px) and (max-width: 450px) {
+@media  (min-width: 280px) and (max-width: 450px) {
     #faith{
-        height: 60rem;
+        height: 55rem;
         display: flex;
         flex-direction: column;   
-        margin-top: 5rem;
+        margin-top: 5vh;
         
     }
     
     
     #zt{
         flex: 1;
-        margin: 1rem;
+        margin: 1vh;
     }
     
     #hhhh{
@@ -68,14 +68,14 @@ flex: 1;
     
     .poi{
         color: rgb(22,36,102);
-        margin-top: 1.3rem;
+        margin-top: 1.3vh;
         font-size: 1rem;
     }
     
     .pois{
         color: rgb(22,36,102);
-        /* margin-top: 1rem; */
-        margin: 1rem;
+        /* margin-top: 1vh; */
+        margin: 1vh;
         font-size:1rem;
         font-weight: bold;
     }
@@ -83,7 +83,7 @@ flex: 1;
     
     #zy{
     flex: 1;
-        margin: 1rem;
+        margin: 1vh;
     }
     
     
@@ -94,17 +94,51 @@ flex: 1;
 
 
 
-@media  (min-width: 515px) and (max-width: 768px) {
+@media   (min-width: 450px) and (max-width: 1000px)  {
+    #faith{
+        height: 150vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+        margin-top: 4vh;
+      margin-bottom: 3vh;
         
+    }
     
+    
+    #zt{
+        flex: 1;
+        margin: 1vh;
+    }
+    
+    #hhhh{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 7vh;
+        margin: 2vh;
+    
+        color: rgb(22,36,102);
+    }
+    
+    .poi{
+        color: rgb(22,36,102);
+        margin-top: 1.3vh;
+        margin: 0vh;
+        font-size: 3vh;
+    }
+    
+    .pois{
+        color: rgb(22,36,102);
+        /* margin-top: 1vh; */
+        margin: 3vh;
+        font-size:2.3vh;
+        font-weight: bold;
+    }
+    
+    
+    #zy{
+    flex: 1;
+        margin: 1vh;
+    } 
 }
 
-@media  (min-width: 515px) and (max-width: 768px) {
-        
-    
-}
-
-@media  (min-width: 515px) and (max-width: 768px) {
-        
-    
-}

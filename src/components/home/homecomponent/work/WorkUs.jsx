@@ -10,7 +10,7 @@ function WorkUs() {
       </div>
       <div id='pon'>
       {/* <button id='bt'>+91 7058865977</button> */}
-      <a id='bt' href="tel:917058865977">+91 7058865977</a>
+      <a id='bt' href="tel:919765065077">+91 9765065077</a>
       </div>
     </div>
   )

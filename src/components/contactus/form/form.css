@@ -78,13 +78,13 @@ background-color: rgb(58, 113, 4);
 
 
 
-  @media  (min-width: 300px) and (max-width: 450px) {
+  @media  (min-width: 280px) and (max-width: 450px) {
     
     .epps {
       text-align: center;
       /* width: 50%; */
       width: 100%;
-      height: 52rem;
+      height: 45rem;
       background-image: url('../../../Images/ccpp.jpg');
       background-attachment: fixed;
       background-position:left center;
@@ -97,13 +97,13 @@ background-color: rgb(58, 113, 4);
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 1.8rem;
-      font-size:2rem;
+      margin-top: 1.8vh;
+      font-size:2vh;
     }
   
     #forms{
       width: 85%;
-      margin:1rem auto ;
+      margin:1vh auto ;
       border: 1px solid rgb(144, 142, 142);
       border-radius: 2vh;
       box-shadow: rgb(164, 207, 245) 3px 3px 6px 0px inset, rgba(77, 75, 75, 0.5) -3px -3px 6px 1px inset;
@@ -112,40 +112,93 @@ background-color: rgb(58, 113, 4);
     }
   
     .repus{
-      font-size: 1.5rem;
-      margin :0vh 1rem  0vh 1rem;
-      padding: 0.5rem;
+      font-size: 1.5vh;
+      margin :0vh 1vh  0vh 1vh;
+      padding: 0.5vh;
       border: none;
       border-radius: 1vh;
       outline: none;
     }
   
     .repus::placeholder{
-      font-size: 1.2rem;
+      font-size: 1.2vh;
      
     }
   
   #label{
-    font-size: 1rem;
+    font-size: 1vh;
     margin-top: 1vh;
   }
   
   }
+
+  @media  (min-width: 450px) and (max-width: 1000px) {
+    .epps {
+      text-align: center;
+      /* width: 50%; */
+      width: 100%;
+      height: 150vh;
+      background-image: url('../../../Images/ccpp.jpg');
+      background-attachment: fixed;
+      background-position:left center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+    }
+    #contid{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3vh;
+      font-size:5vh;
+    }
   
+    #forms{
+      width: 85%;
+      margin:3vh auto ;
+      border: 1px solid rgb(144, 142, 142);
+      border-radius: 2vh;
+      box-shadow: rgb(164, 207, 245) 3px 3px 6px 0px inset, rgba(77, 75, 75, 0.5) -3px -3px 6px 1px inset;
+      display: flex;
+      flex-direction: column;
+    }
   
+    .repus{
+      font-size: 2.5vh;
+      margin :0vh 3vh  0vh 3vh;
+      padding: 1vh;
+      border: none;
+      border-radius: 2vh;
+      outline: none;
+    }
   
-  @media  (min-width: 515px) and (max-width: 768px) {
-          
+    .repus::placeholder{
+      font-size: 2.5vh;
+     
+    }
+  
+  #label{
+    font-size: 3vh;
+    margin-top: 1vh;
+  }
+
+  #btn{
+    margin-bottom: 4vh;
+    margin-top: 3vh;
+    width: 30%;
+    font-size: 3vh;
+    background-color:rgb(82, 157, 7);
+    border: none;
+    /* color: black; */
+    color: white;
+    padding: 1vh;
+  
+    border-radius: 1.4vh;
+  }
+
       
   }
   
-  @media  (min-width: 515px) and (max-width: 768px) {
-          
-      
-  }
-  
-  @media  (min-width: 515px) and (max-width: 768px) {
-          
-      
-  }
+
   

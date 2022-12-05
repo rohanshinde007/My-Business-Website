@@ -1,6 +1,6 @@
 
 import './App.css';
-import Navbar from './components/navbar/Navbar';
+
 import Home from './components/home/Home';
 import About from "./components/About/About";
 
@@ -16,6 +16,7 @@ import Web from './components/web/Web';
 import Ecom from './components/ecom/Ecom';
 import Dopetil from './components/dope/Dopetil';
 import Cson from './components/contactus/Cson';
+import Nee from './components/nee/Nee';
 
 
 
@@ -24,7 +25,7 @@ function App() {
   return (
   <>
 <BrowserRouter>
-  <Navbar/>
+  <Nee/>
   <Routes>
    <Route path='/' element={<Home/>}/>
    <Route path='/about' element={<About/>}/>
