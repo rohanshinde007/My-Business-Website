@@ -22,8 +22,8 @@
 }
 .imgs{
     margin-top: 2vh;
-     height: 20vh;
-     width: 25vh;
+     height: 40vh;
+     width: 45vh;
      border: 2vh solid rgb(9, 43, 91);
      object-fit: cover;
      border-radius: 3vh;
